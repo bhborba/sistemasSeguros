@@ -4,6 +4,6 @@ import HashController from './app/controllers/HashController';
 
 const routes = new Router();
 
-routes.post('/hash', HashController.store);
+routes.get('/hash', HashController.index);
 
 export default routes;
