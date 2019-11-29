@@ -1,9 +1,9 @@
-import Sequelize from "sequelize";
+import Sequelize from 'sequelize';
 
-import databaseConfig from "../config/database";
+import databaseConfig from '../config/database';
 
 // importando a model
-import User from "../app/models/User";
+import User from '../app/models/User';
 
 // array com os models da aplicação
 
